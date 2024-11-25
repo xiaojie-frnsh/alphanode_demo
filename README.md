@@ -21,13 +21,11 @@ cd alphanode_demo
 ```
 2. Create and activate a virtual environment
 ```
-bash
 python -m venv .venv
 source .venv/bin/activate # On Windows, use .venv\Scripts\activate
 ```
 3. Install dependencies
 ```
-bash
 pip install -r requirements.txt
 ```
 
@@ -41,13 +39,11 @@ PERPLEXITY_API_KEY=your_perplexity_api_key
 
 5. Run migrations
 ```
-bash
 python manage.py migrate
 ```
 
 6. Start the development server
 ```
-bash
 python manage.py runserver
 ```
 
@@ -66,7 +62,6 @@ The API is built using GraphQL. You can explore the API using GraphiQL interface
 ```
 http://localhost:8000/graphql/
 ```
-
 
 ## 🔐 Security
 
